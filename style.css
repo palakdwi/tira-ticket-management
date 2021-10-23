@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.toolbox{
+    height: 5rem;
+    background-color: lightblue;
+    display: flex;
+}
+.toolbox-priority-container{
+    height: 3rem;
+    width: 16rem;
+    background-color: lightgray;
+}
+.action-button-container{
+    height: 3rem;
+    width: 8rem;
+    background-color: lightsteelblue;
+}
+.color{
+    height: 2rem;
+    width: 3rem;
+    background-color: lightyellow;
+}
