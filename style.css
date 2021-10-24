@@ -8,21 +8,56 @@ body{
 }
 .toolbox{
     height: 5rem;
-    background-color: lightblue;
+    background-color: #435058;
     display: flex;
+    align-items: center;
+}
+.toolbox > *{
+    margin-left: 4rem;
+    border-radius: 20px;
 }
 .toolbox-priority-container{
-    height: 3rem;
+    height: 3.5rem;
     width: 16rem;
-    background-color: lightgray;
+    background-color: #F1FAEE;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
 }
 .action-button-container{
-    height: 3rem;
+    height: 3.5rem;
     width: 8rem;
-    background-color: lightsteelblue;
+    background-color: #F1FAEE;
+    display: flex;
+}
+.action-button-container > *{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    font-size: 30px;
+}
+.action-button-container > *:hover{
+    background-color: lightgray;
+    border-radius: 20px;
+    cursor: pointer;
 }
 .color{
-    height: 2rem;
+    height: 1.5rem;
     width: 3rem;
     background-color: lightyellow;
+    border-radius: 5px;
+}
+.red{
+    background-color: #CE4257;
+}
+.blue{
+    background-color: #0E6BA8 ;
+}
+.green{
+    background-color: #157F1F ;
+}
+.black{
+    background-color: black ;
 }
