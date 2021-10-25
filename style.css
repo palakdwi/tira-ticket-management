@@ -44,7 +44,7 @@ body{
     cursor: pointer;
 }
 .color{
-    height: 1.5rem;
+    height: 1.3rem;
     width: 3rem;
     background-color: lightyellow;
     border-radius: 5px;
@@ -60,4 +60,71 @@ body{
 }
 .black{
     background-color: black ;
+}
+.border{
+    border: 3px solid red;
+}
+
+
+/*Modal Container Styling*/
+.modal{
+    height: 50vh;
+    width: 45vw;
+    background-color: lightskyblue;
+    position: absolute;
+    top: calc( (100vh - 50vh) / 2);
+    left: calc( (100vw - 45vw) / 2); 
+    display:none;
+}
+.text{
+    height: 100%;
+    width: 75%;
+    border: none;
+    outline: none;
+    background-color: lightgreen;
+    resize: none;
+    padding: 2rem;
+    font-size: 1.5rem;
+}
+.priority-color-cont{
+    height: 100%;
+    width: 25%;
+    background-color: lightsalmon;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.priority-color{
+    height: 3rem;
+    width: 55%;
+}
+.ticket-cont{
+    height: 12rem;
+    width: 16rem;
+    background-color: blanchedalmond;
+    
+}
+.ticket-color{
+    height: 1rem;
+    background-color: black;
+}
+.ticket-id{
+    height: 2rem;
+    background-color: cornflowerblue;
+    padding: 0.4rem;
+}
+.task{
+    height: calc(100% - 1rem - 2rem);
+    padding: 0.4rem;
+}
+
+/*Main Container Styling*/
+.main-cont{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2rem;
+    gap: 2rem;
+    padding: 2rem;
+    justify-content: center;
 }
